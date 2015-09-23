@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="well">
+
+    <div>
+        <form action="@Url.Action("Upload", "Home")" method="POST"  enctype="multipart/form-data">
+            <input type="file" name="upload" />
+            <button type="submit">upload to ravendb</button>
+        </form>
+    
+    </div>
+    <div>
+        <form action="@Url.Action("UploadToDisk", "Home")" method="POST"  enctype="multipart/form-data">
+            <input type="file" name="upload" />
+            <button type="submit">upload to disk</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+{
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-TestLargeFileUpload-eb3f92a3-4ebf-4bb5-a097-8d6e0f4fb5da;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    },
+    "RavenDb": {
+        "Url": "http://localhost:8080",
+        "DefaultDatabase": "TestLargeFiles",
+        "DefaultFilesStore": "TestLargeFilesFS"
+    },
+}
